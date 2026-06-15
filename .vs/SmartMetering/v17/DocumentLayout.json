@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69FAE401-9576-4EE7-9440-493D98F5C054}|SmartMetering.Simulator\\SmartMetering.Simulator.csproj|c:\\users\\comp\\desktop\\cloudprojekat\\smartmetering\\smartmetering.simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69FAE401-9576-4EE7-9440-493D98F5C054}|SmartMetering.Simulator\\SmartMetering.Simulator.csproj|solutionrelative:smartmetering.simulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF5388D2-C638-42DA-B7ED-14BAF9CF9B3E}|SmartMetering.Functions\\SmartMetering.Functions.csproj|c:\\users\\comp\\desktop\\cloudprojekat\\smartmetering\\smartmetering.functions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF5388D2-C638-42DA-B7ED-14BAF9CF9B3E}|SmartMetering.Functions\\SmartMetering.Functions.csproj|solutionrelative:smartmetering.functions\\function1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D80FC50-0E41-4D36-84C8-25AF272688CA}|SmartMetering.Infrastructure\\SmartMetering.Infrastructure.csproj|c:\\users\\comp\\desktop\\cloudprojekat\\smartmetering\\smartmetering.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D80FC50-0E41-4D36-84C8-25AF272688CA}|SmartMetering.Infrastructure\\SmartMetering.Infrastructure.csproj|solutionrelative:smartmetering.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5209B7AE-01CD-4962-8D9F-D69FF4969DD5}|SmartMetering.Application\\SmartMetering.Application.csproj|c:\\users\\comp\\desktop\\cloudprojekat\\smartmetering\\smartmetering.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5209B7AE-01CD-4962-8D9F-D69FF4969DD5}|SmartMetering.Application\\SmartMetering.Application.csproj|solutionrelative:smartmetering.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6B02F0C-54FF-46EA-8C47-98E7E8D9E886}|SmartMetering.Domain\\SmartMetering.Domain.csproj|c:\\users\\comp\\desktop\\cloudprojekat\\smartmetering\\smartmetering.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6B02F0C-54FF-46EA-8C47-98E7E8D9E886}|SmartMetering.Domain\\SmartMetering.Domain.csproj|solutionrelative:smartmetering.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Simulator\\Program.cs",
+              "RelativeDocumentMoniker": "SmartMetering.Simulator\\Program.cs",
+              "ToolTip": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Simulator\\Program.cs",
+              "RelativeToolTip": "SmartMetering.Simulator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T18:48:04.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Function1.cs",
+              "DocumentMoniker": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Functions\\Function1.cs",
+              "RelativeDocumentMoniker": "SmartMetering.Functions\\Function1.cs",
+              "ToolTip": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Functions\\Function1.cs",
+              "RelativeToolTip": "SmartMetering.Functions\\Function1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T18:45:50.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartMetering.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "SmartMetering.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T18:45:06.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartMetering.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Application\\Class1.cs",
+              "RelativeToolTip": "SmartMetering.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T18:44:31.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartMetering.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Comp\\Desktop\\CloudProjekat\\SmartMetering\\SmartMetering.Domain\\Class1.cs",
+              "RelativeToolTip": "SmartMetering.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T18:43:19.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
