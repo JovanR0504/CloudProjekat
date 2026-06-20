@@ -27,5 +27,9 @@
   "BlobStorage": {
     "InvoiceContainer": "invoices",
     "PhotoContainer": "photos"
+  },
+  "Broadcast": {
+    "ApiBaseUrl": "http://localhost:5080/",
+    "SharedSecret": "dev-broadcast-secret-key"
   }
 }

@@ -82,6 +82,8 @@ public static class DependencyInjection
         services.AddScoped<IPaymentService, StripePaymentService>();
         services.AddScoped<ICurrentUser, CurrentUserService>();
 
+        services.AddHttpClient<ITelemetryBroadcaster, TelemetryBroadcaster>();
+
         services.AddHttpContextAccessor();
 
         return services;

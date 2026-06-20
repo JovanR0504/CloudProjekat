@@ -13,15 +13,18 @@ public class ProcessTelemetryFunction
 {
     private readonly ITelemetryStore _telemetryStore;
     private readonly IAppDbContext _db;
+    private readonly ITelemetryBroadcaster _broadcaster;
     private readonly ILogger<ProcessTelemetryFunction> _logger;
 
     public ProcessTelemetryFunction(
         ITelemetryStore telemetryStore,
         IAppDbContext db,
+        ITelemetryBroadcaster broadcaster,
         ILogger<ProcessTelemetryFunction> logger)
     {
         _telemetryStore = telemetryStore;
         _db = db;
+        _broadcaster = broadcaster;
         _logger = logger;
     }
 
@@ -62,6 +65,17 @@ public class ProcessTelemetryFunction
         {
             meter.MarkActive(queueItem.RecordedAtUtc);
             await _db.SaveChangesAsync();
+
+            var broadcastEvent = new TelemetryBroadcastEvent(
+                queueItem.MeterId.ToString(),
+                meter.PropertyId.ToString(),
+                queueItem.RecordedAtUtc,
+                queueItem.Voltage,
+                queueItem.LoadKw,
+                tariffType.ToString(),
+                queueItem.TotalKwh);
+
+            await _broadcaster.BroadcastAsync(broadcastEvent);
         }
 
         _logger.LogInformation(
