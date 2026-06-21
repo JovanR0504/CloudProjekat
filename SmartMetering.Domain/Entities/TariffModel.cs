@@ -69,6 +69,39 @@ public class TariffModel : AggregateRoot
         return Result<TariffModel>.Success(tariff);
     }
 
+    public void Update(
+        string name,
+        decimal greenHighTariffPrice,
+        decimal greenLowTariffPrice,
+        decimal blueHighTariffPrice,
+        decimal blueLowTariffPrice,
+        decimal redHighTariffPrice,
+        decimal redLowTariffPrice,
+        decimal greenZoneUpperLimit,
+        decimal blueZoneUpperLimit,
+        decimal powerBillingRate,
+        decimal supplierFee,
+        DateOnly effectiveFrom,
+        DateOnly? effectiveTo,
+        bool isActive)
+    {
+        Name = name.Trim();
+        GreenHighTariffPrice = greenHighTariffPrice;
+        GreenLowTariffPrice = greenLowTariffPrice;
+        BlueHighTariffPrice = blueHighTariffPrice;
+        BlueLowTariffPrice = blueLowTariffPrice;
+        RedHighTariffPrice = redHighTariffPrice;
+        RedLowTariffPrice = redLowTariffPrice;
+        GreenZoneUpperLimit = greenZoneUpperLimit;
+        BlueZoneUpperLimit = blueZoneUpperLimit;
+        PowerBillingRate = powerBillingRate;
+        SupplierFee = supplierFee;
+        EffectiveFrom = effectiveFrom;
+        EffectiveTo = effectiveTo;
+        IsActive = isActive;
+        UpdatedAtUtc = DateTime.UtcNow;
+    }
+
     public void Deactivate()
     {
         IsActive = false;
